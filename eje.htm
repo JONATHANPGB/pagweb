@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJEMPLOS</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="icon" href="favicon.png" type="image/x-icon"> 
+<style>
+        /* Estilos globales */
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+	    background-image: url('fondo1.jpg');
+	    background-size: cover; 
+	    background-repeat: no-repeat; 
+	    background-attachment: fixed; 
+        }
+
+        /* Encabezado */
+        .header {
+            background-color: rgba(255, 255, 255, 0);
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .header .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .header a {
+            color: #FFF;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            transition: all 0.7s ease;
+        }
+
+        .header a:hover {
+            background-color: #C11A1A;
+            border: 1px solid #C11A1A;
+        }
+
+        /* Tabla */
+        .table-container {
+            margin: 20px;
+            width: 100%;
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .table th,
+        .table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .table th {
+            background-color: #333;
+            color: #fff;
+            position: sticky;
+            top: 0;
+        }
+
+        /* Botones */
+        .button-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.7s ease;
+        }
+
+        .button:hover {
+            background-color: #1e7e34;
+        }
+
+        /* Pie de Página */
+        footer {
+           background-color: rgba(255, 255, 255, 0);
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+        }
+	.container 
+	{
+		background-color: rgba(255, 255, 255, 0); 
+	    display:flex;
+	    aling-items:center; 
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgb(223, 128, 0);
+		border-radius: 20px; 
+        }
+	.text{
+	flex: 1;
+		}
+	.imge{
+	flex: 1;
+		}
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="logo.jpg" alt="Logo de la empresa">
+	<h1>CALIDAD</h1>
+ 	    <a href="cal.htm"><i class="fas fa-file"></i> INICIO </a>
+            <a href="sec1.htm"><i class="fas fa-file"></i> BUENAS PRACTICAS</a>
+            <a href="sec2.htm"><i class="fas fa-file"></i> FSC </a>
+	    <a href="sec3.htm"><i class="fas fa-file"></i> EXAMEN </a>
+	    
+     
+	</div>
+<div class="container">
+<div class="text">
+        <section>
+            <h2 align="center">EJEMPLOS DE BUENAS PRACTICAS</h2>
+            <ul>
+    <li>Higiene y limpieza: Mantener un entorno de trabajo limpio y libre de contaminantes es esencial. Esto incluye la limpieza de las áreas de producción y el uso de ropa y equipos adecuados.</li>
+    <li>Control de calidad: Establecer procedimientos para el control de calidad en cada etapa de producción para garantizar que las bolsas cumplan con los estándares de calidad.</li>
+    <li>Seguridad del producto: Asegurarse de que las bolsas fabricadas sean seguras para su uso previsto y no contengan materiales o sustancias dañinas.</li>
+    <li>Trazabilidad: Llevar registros detallados de materias primas, procesos de fabricación y distribución para poder rastrear los productos en caso de problemas.</li>
+    <li>Capacitación del personal: Capacitar al personal en las BPM y asegurarse de que estén al tanto de las prácticas seguras de fabricación.</li>
+			  
+<li>Almacenamiento adecuado: Almacenar las materias primas y productos terminados de manera adecuada para prevenir daños, contaminación o deterioro.</li>
+    <li>Etiquetado: Etiquetar claramente las bolsas con información relevante, como el tipo de material, instrucciones de uso y advertencias.</li>
+    <li>Documentación: Mantener registros precisos de todos los procesos de fabricación y de cualquier problema o desviación de las BPM.</li>
+    <li>Manejo de residuos: Gestionar adecuadamente los residuos generados durante el proceso de fabricación de bolsas, de acuerdo con las regulaciones ambientales.</li>
+    <li>Mejora continua: Buscar constantemente formas de mejorar los procesos y la calidad de los productos.</li>
+		<div style="text-align: center;">	
+			<div class="imge">
+ 			<img src="b2.jpg" alt="BPM">
+			</div>	
+		</div>
+</ul>
+        </section>
+</div>
+</div>
+    </header>
+</body>
+<footer>
+<strong>REALIZADA POR JONATHAN PAZ GALLARDO</strong>
+</footer>
+</html>
